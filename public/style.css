@@ -1,0 +1,75 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900");
+
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400; 
+  background-color: #0b1636; /* Set dark blue background */
+}
+
+h4 {
+  color: #fff; /* Set heading text color to white*/
+  font-weight: 700;
+}
+
+.item {
+  background-color: #ccc; /* Set gray card background color */
+  padding: 20px; 
+  border-radius: 10px; 
+  margin-bottom: 20px; 
+}
+
+.item img {
+  width: 100%; 
+  height: 200px; 
+}
+
+.game-name {
+  margin-top: 10px; 
+  margin-bottom: 5px; 
+  font-size: 18px; 
+  color: #000; /* Set game name color to black */
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  white-space: nowrap; /* Prevent text wrapping */
+}
+
+.rating {
+  font-size: 16px; 
+  color: #555; /* Set rating color to medium-dark gray */
+}
+
+.date {
+  font-size: 14px; 
+  color: #555; /* Set date color to medium-dark gray*/
+}
+
+.heading-section {
+  text-align: center; 
+  margin-top: 50px; 
+}
+
+.heading-section h4 {
+  font-size: 36px; 
+}
+
+.search-bar {
+  text-align: center; 
+  margin-top: 20px; 
+  padding: 20px; 
+}
+
+.load-more-button {
+  position: relative; 
+  left: 44%; 
+  padding: 10px 20px; 
+  background-color: #0056b3; /* Set button background color to blue*/
+  color: #fff; /* Set button text color to white*/
+  border-radius: 50px;
+  text-decoration: none; /* Remove underline */
+}
+
+.load-more-button:hover {
+  background-color: #ccc; /* Set button background color on hover to gray */
+}
