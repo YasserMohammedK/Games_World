@@ -5,7 +5,6 @@ discover information about various games. The application fetches data
 from the RAWG Video Games Database API to display details such as game
 name, release date, rating, and platforms.
 
-<img src="media/image1.png" style="width:6.5in;height:3.03681in" />
 
 **Methodology:**
 
